@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mapper nameSpace="com.jmx.mapper.UserMapper">
+    <select id="getUserById" resultType ="com.jmx.pojo.User">
+        select * from user where id = ?
+    </select>
+</mapper>
